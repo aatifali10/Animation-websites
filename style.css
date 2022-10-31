@@ -108,3 +108,77 @@ li:hover li a:hover {
 	padding-top: 20px;
 	text-align: center;
 }
+/*Progress section start*/
+
+.Progres{
+	display: flex;
+	justify-content: center;
+	background-color: #f5f5f5;
+	max-height: 70vh;
+	margin-bottom: 80px;
+}
+
+.Progress{
+	max-width: 50%;
+	display: block;
+	margin: 20px 0px 0px 30px;
+}
+.Progress .desgin{
+	padding: 10px  0px;
+}
+.Progress .desgin h4 span{
+	padding-left: 235px;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.Progress .desgin .Progres-bar1{
+	border: 2px solid black;
+	width: 25vw;
+}
+
+.Progress .branding{
+	padding: 20px  0px;
+}
+.Progress .branding h4 span{
+	padding-left: 120px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+.Progress .branding .Progres-bar-2{
+	border: 2px solid black;
+	width: 18vw;
+}
+
+.Progress .advertising{
+	padding: 20px  0px;
+}
+.Progress .advertising h4 span{
+	padding-left: 155px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+.Progress .advertising .Progres-bar-3{
+	border: 2px solid black;
+	width: 22vw;
+}
+
+.Progress .copywriting{
+	padding: 20px  0px;
+}
+
+.Progress .copywriting h4 span{
+	padding-left: 255px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 23px;
+}
+
+.Progress .copywriting .Progres-bar-4{
+	border: 2px solid black;
+	width: 30vw;
+}
+
+.Progres .Progres-img img{
+	width: 100%;
+	object-fit: cover;
+	height: 259px;
+	margin-top: 45px;
+}

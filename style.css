@@ -182,3 +182,17 @@ li:hover li a:hover {
 	height: 259px;
 	margin-top: 45px;
 }
+/*Exhibition start*/
+
+.exhibtions{
+	display: flex;
+	justify-content: space-between;
+}
+.exhibtions.exhibtions-part{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.exhibtions part1{
+	width: 50vw;
+}

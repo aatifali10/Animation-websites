@@ -53,3 +53,58 @@ li:hover a {
 }
 li:hover li a:hover {
 }
+/*Animation Start*/
+.how-its-work{
+	display:flex;
+	justify-content: center;
+	height: 40vh;
+	padding: 0px 100px;
+	/*margin-top: 25px;
+	margin-bottom: 20px;*/
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+.how-its-work .animation{
+	width: 22%;
+	padding:15px;a
+}
+.how-its-work .animation h5{
+	font-family: 'Barlow Condensed', sans-serif;
+    font-size: 23px;
+}
+.how-its-work .animation p{
+	font-family: 'Hind', sans-serif;
+	color:#8e9193;
+	font-size: 15px;
+}
+.how-its-work .animation img{
+	margin-left: 70px;
+}
+
+.how-its-work .animation img{
+	width: 87px;
+	height: 101px;
+    animation: rotate 5s normal linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  } 
+  50% {
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+}
+
+.how-its-work h5{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+.how-its-work p{
+	padding-top: 20px;
+	text-align: center;
+}

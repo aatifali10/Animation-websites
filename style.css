@@ -196,3 +196,83 @@ li:hover li a:hover {
 .exhibtions part1{
 	width: 50vw;
 }
+/*News section start*/
+.news{
+	display: flex;
+	justify-content: space-between;
+	max-height: 70vh;
+	background-color: #fcfcfc;
+	padding: 70px 30px;
+	margin-bottom: 50px;
+}
+.news h1{
+	width: 30vw;
+	font-size: 70px;
+	margin-top: 75px;
+	margin-left:120px;
+	font-family: "Barlow Condensed",sans-serif;
+}
+.news .sub-news{
+	width: 40%;
+}
+.news .sub-news .sub-news-1{
+	display: block;
+	width: 20vw;
+	margin: 100px 0px 50px 0px;
+	padding-left: 50px;
+	font-family: "Barlow Condensed",sans-serif;
+}
+.news .sub-news .sub-news-1 h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.news .sub-news .sub-news-1 h5{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.news .sub-news .sub-news-1 p{
+	color:#c1c1c1;
+	margin-bottom: 10px;
+}
+.news .sub-news .sub-news-2{
+	display: block;
+	width: 20vw;
+	margin:100px 80px 50px 0px;
+	font-family: "Barlow Condensed",sans-serif;
+}
+.news .sub-news .sub-news-2 h2{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 30px;		
+}
+.news .sub-news .sub-news-2 h5{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.news .sub-news .sub-news-2 p{
+	color:#c1c1c1;
+	margin-bottom: 10px;
+}
+.counter{
+	display: flex;
+	justify-content: space-around;
+	padding: 100px 120px 10px 120px;
+	background-color: #f5f5f5 ;
+	height: 20vh;
+}
+.counter span{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	font-size: 75px;
+	line-height: 1;
+	color: #000;
+}
+.counter h6{
+	color: #909090;
+	font-family: "Hind";
+	font-size: 19px;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-transform: none;
+}

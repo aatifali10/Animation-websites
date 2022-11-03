@@ -298,3 +298,50 @@ li:hover li a:hover {
 .our-clients .client img{
 	width: 20%;
 }
+/*Search section start*/
+
+.search{
+	padding-top: 82px !important;
+	padding-bottom: 130px !important;
+	background-color: #000 !important;
+}
+.search h2{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 55px;
+	line-height: 1.1em;
+	margin: 25px 150px;
+}
+.search input{
+	background-color: #282828;
+	width: 60%;
+	padding: 15px;
+	margin: 10px 5px 10px 150px;
+	border: 1px solid #000;
+}
+.search input email{
+	color: #fff;
+}
+.search .btn{
+	background-color: #282828;
+	width: 10%;
+	font-size: 14px;
+	padding: 15px;
+	text-transform: uppercase;
+	background-color: #282828;
+	border: 1px solid #000;
+}
+.search .icon{
+	padding-left: 141px;
+	text-transform: uppercase;
+}
+.search .icon i{
+	width: 13px;
+	height: 14px;
+	background-color: #ececec;
+	padding: 5px 7px 5px 3px;
+	border-radius: 4px;
+	margin: 10px;
+}

@@ -345,3 +345,248 @@ li:hover li a:hover {
 	border-radius: 4px;
 	margin: 10px;
 }
+/*team section start*/
+.team-wraper{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.team-box .team-content:hover{
+	opacity: 1;
+}
+.team-wraper.team-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.team-box img{
+	width: 100%;
+	height: auto;
+}
+.team-box img:hover{
+	opacity: 0;
+}
+.team-box .team-content{
+	width: 49%;
+    height: 8.5vh;
+	padding: 180px 80px;
+	background: rgba(255,255,255,1);
+	margin-top: -417px;
+	z-index: 2;
+	opacity: 0;
+}
+.team-box .team-content:hover{
+	  transform: scale(1);
+	  opacity: 1;
+}
+.team-box .team-content p{
+	color: black;
+	font-size: 12px;
+	color: #808080;
+}
+.team-box .team-content h1{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 28px;
+}
+.team-box .team-content .icon i{
+	width: 13px;
+	height: 14px;
+	background-color: #000;
+	color: #fff;
+	padding: 3px 3px 0px 3px;
+	border-radius: 2px;
+	font-size: 12px;
+	margin-top: 15px;
+}
+/*our work section*/
+.our-work{
+	display: flex;
+	justify-content: space-around;
+	max-width: 100vw;
+	max-height: 90vh;
+}
+.our-work h1{
+	 font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 70px;
+	line-height: 1.1em;
+	margin: 51px 0;
+	margin-left: 0px;
+	width: 57%;
+	margin-left: 124px;
+}
+.our-work .works {
+	/*display: flex;*/
+}
+.our-work .works span{
+	position: absolute;
+	display: inline-block;
+	color: rgba(0,0,0,0.1);
+	text-align: center;
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 700;
+	font-size: 200px;
+	/*margin-top: -50;*/
+}
+.our-work .works .work1{
+	display: block;
+	width: 84%;
+	font-size: 15px;
+	/*padding-bottom: 42px;*/
+}
+.our-work .works .work1 h3{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 26px;
+	margin: 10px 0;
+	padding: 102px 0px 0px 31px;
+}
+.our-work .works .work1 p{
+	font-family: Hind,sans-serif;
+	color: #abb8c3;
+	margin: 10px 0px 0px 26px;
+}
+
+
+.our{
+	display: flex;
+	justify-content: space-between;
+	max-height: 100vh;
+	max-width: 100vw;
+	margin-top: 137px;
+}
+.our .team{
+	display: flex;
+	justify-content: space-between;
+	max-width: 100vw;
+}
+.our .team .team1{
+	width: 35%;
+	max-height: 58vh;
+}
+.our .team .team1 span{
+	position: absolute;
+	display: inline-block;
+	color: rgba(0,0,0,0.1);
+	text-align: center;
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 700;
+	font-size: 330px;
+	margin-left: 126px;
+	margin-top: -47px;
+}
+.our .team .team1 h3{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 35px;
+	line-height: 1.06em;
+	margin: 10px 25px;
+	padding: 102px 0px 0px 31px;
+}
+.our .team .team1 p{
+	font-family: Hind,sans-serif;
+	color: #abb8c3;
+	margin: 0px 56px;
+}
+.our .team .team1 h6{
+	font-family: "Barlow Condensed",sans-serif;
+	font-size: 18px;
+	line-height: 2em;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 0px 56px;
+}
+.our .team img{
+	width: 100%;
+	height: auto;
+}
+.teams{
+	display: flex;
+	justify-content: space-between;
+	max-height: 100vh;
+	max-width: 100vw;
+}
+.teams .team2{
+	width: 35%;
+	height: 20vh;
+}
+.teams .team2 span{
+	position: absolute;
+	display: inline-block;
+	color: rgba(0,0,0,0.1);
+	text-align: center;
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 700;
+	font-size: 330px;
+	margin-left: 126px;
+	margin-top: -47px;
+}
+.teams .team2 h3{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 35px;
+	line-height: 1.06em;
+	margin: 10px 25px;
+	padding: 102px 0px 0px 31px;
+}
+.teams .team2 p{
+	font-family: Hind,sans-serif;
+	color: #abb8c3;
+	margin: 0px 56px;
+}
+.teams .team2 h6{
+	font-family: "Barlow Condensed",sans-serif;
+	font-size: 18px;
+	line-height: 2em;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 0px 56px;
+}
+.teams .team2 img{
+	width: 100%;
+	height: auto;
+}
+
+/*Awards*/
+.awards{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 231px;
+}
+.awards h1{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 70px;
+	margin: 25px 123px;	
+}
+.awards .award .award-name{
+	width: 77%;
+}
+.awards .award .award-name h3{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 26px;
+	margin: 18px 0px 10px 0px;
+}
+.awards .award .award-name p{
+	font-family: Hind,sans-serif;
+	color: #abb8c3;
+}

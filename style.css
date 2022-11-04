@@ -590,3 +590,48 @@ li:hover li a:hover {
 	font-family: Hind,sans-serif;
 	color: #abb8c3;
 }
+/*form*/
+
+.form{
+	width: 100vw;
+	height: auto;
+}
+.form h1{
+	font-family: "Barlow Condensed",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 55px;
+	margin: 25px 0;
+}
+.form .form-input{
+	display: block;
+	justify-content: space-around;
+}
+
+.form .form-info{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20px;
+}
+/*footer section start*/
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #282828;
+	height: 10vh;
+	padding: 20px;
+}
+.footer img{
+	height: 5vh;
+	padding:20px 25px;
+}
+.footer .footer-icon i{
+	width: 13px;
+	height: 14px;
+	background-color: #fff;
+	padding: 2px 7px 2px 2px;
+	border-radius: 4px;
+	margin: 29px 10px;
+	text-align: center;
+}
